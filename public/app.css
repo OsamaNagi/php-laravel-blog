@@ -1,0 +1,13 @@
+body {
+    max-width: 900px;
+    margin: auto;
+}
+
+p {
+    line-height: 1.5;
+}
+
+article + article {
+    margin-top: 2rem;
+    border-top: 2px solid #c5c5c5;
+}

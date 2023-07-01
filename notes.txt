@@ -1,0 +1,16 @@
+[commands]
+- php artisan migrate:fresh
+    drop the database and build it again
+
+- php artisan db:seed
+    seeds the database with the specified data
+
+- php artisan migrate:fresh --seed
+    refresh the database and seed it again
+
+- php artisan make:factory ...Factory
+    creates a factory for the specified data
+-------------------------------------------------
+[methods]
+- user::truncate();
+    truncates the table in the database
